@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# image data
+image_raw
+*.jpg
+
+#ai models
+*.pt
+*.onnx
+*.onnx.data
+
+#video files
+*.mp4
+
+# sqlite storage
+*.sqlite3

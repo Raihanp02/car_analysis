@@ -1,0 +1,28 @@
+car_brands = ["Toyota",
+        "Daihatsu",
+        "Honda",
+        "Suzuki",
+        "Mitsubishi",
+        "Hyundai",
+        "Wuling",
+        "Nissan",
+        "Isuzu",
+        "Chery",
+        "BYD",
+        "Mazda",
+        "Kia",
+        "Lexus",
+        "Mercedes-Benz",
+        "BMW",
+        "Ford",
+        "Subaru",
+        "Audi",
+        "VinFast",
+        "Chevrolet",
+        "Tesla",
+        "AION",
+        "JAECOO",
+        "Peugeot"]
+
+prompt_list = [f"a photo of a {brand} car" for brand in car_brands]
+class_mapping = {f"a photo of a {brand} car": brand for brand in car_brands}
